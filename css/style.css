@@ -1,0 +1,546 @@
+@import url("fonts.css");
+
+body {
+	margin: 0;
+	background-color: #FFF;
+}
+
+h3 {
+	font-family: 'neristhin';
+	color: #F1595B;
+	font-size: 30px;
+}
+
+.referate table td span {
+	background: #f0595b;
+	color: #FFF;
+	font-family: 'neristhin_italic';
+	display: block;
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-bottom: 8px;
+	border-radius: 18px;
+}
+
+.referate table td span.active {
+	background: #4F5D73 !important;
+}
+
+.referate table td .info-bx {
+	background: #4F5D73;
+	color: #FFF;
+	border-radius: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.referate table td .info-bx a {
+	color: #FFF;
+}
+
+.referate table td .info-bx {
+	font-family: 'neristhin_italic';
+	font-size: 15px;
+}
+
+.referate table td .info-bx h5 {
+	font-family: 'nerisblack';
+	font-size: 20px;
+	padding-top: 15px;
+	margin-bottom: 5px;
+}
+
+.pictures {
+	z-index: 2000;
+}
+
+.kino table td.n {
+	background: #F15B5B;
+	border-radius: 15px;
+	padding: 0px;
+}
+
+.kino table td.n h5 {
+	font-family: 'neristhin';
+	color: #fff;
+	font-size: 20px;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	border-bottom: 3px solid #FFF;
+	margin-bottom: 20px;
+}
+
+.kino table td.n span.top {
+	font-family: 'nerisblack';
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	display: block;
+}
+
+.kino table td.n span.bottom {
+	font-family: 'neristhin_italic';
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	display: block;
+	padding-top: 8px;
+	border-top: 3px solid #FFF;
+}
+
+.kino table td.n p {
+	font-family: 'neristhin';
+	color: #fff;
+	font-size: 14px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	display: block;
+	padding-right: 40px;
+}
+
+.pictures table td img.arrow_s,
+.kino table td img.arrow_s {
+	height: 23px;
+	cursor: pointer;
+}
+
+img.middle_pic {
+	width: 172px;
+	margin-left: 7px;
+	margin-right: 7px;
+	z-index: 2000;
+}
+
+.evaluationen table td {
+	border-radius: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+}
+
+.evaluationen table td.blue {
+	background-color: #6C5D73;
+}
+
+.evaluationen table td.green {
+	background-color: #4E5D5A;
+}
+
+.evaluationen table td h5 {
+	font-family: 'neristhin';
+	color: #fff;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.evaluationen table td span {
+	background: #fff;
+	display: block;
+	font-family: 'neristhin_italic';
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	color: #9E9FA3;
+}
+
+.contact-info,
+.times-info,
+.evaluationen {
+	padding-left: 30px; 
+}
+
+h4 {
+	font-family: 'nerissemibold_italic';
+	color: #5E5E63;
+	font-size: 21px;
+}
+
+.contact-info table td {
+	font-family: 'nerislight_italic';
+	color: #9E9FA3;
+}
+
+.times-info table td p {
+	font-family: 'nerislight_italic';
+	color: #9E9FA3;
+	line-height: 25px;
+}
+
+.contact-info table td a {
+	font-family: 'nerissemibold';
+	color: #5E5E63;
+}
+
+input:focus {
+	outline: none; 
+}
+
+ul.nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+.search {
+	display: none;
+	margin-top: -15px;
+	float: right;
+	width: 300px;
+	background-image: url('../img/box_arrow.png');
+	background-repeat: no-repeat;
+	background-position: 244px 12px;
+	z-index: 3000;
+}
+
+.login {
+	display: none;
+	margin-top: -15px;
+	float: right;
+	width: 225px;
+	background-image: url('../img/box_arrow.png');
+	background-repeat: no-repeat;
+	background-position: 67px 12px;
+	z-index: 9999;
+	position: relative;
+}
+
+.login .inside {
+	padding-top: 20px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	padding-bottom: 20px !important;
+}
+
+.login h4 {
+	font-family: 'nerislight';
+	color: #FFF;
+	display: inline;
+}
+
+.login .top {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.login .top:first-child {
+	margin-top: 0px;
+}
+
+.login .top .left {
+	float: left;
+    width: 100px;
+}
+
+.login .top:first-child .left {
+    width: 50px;
+}
+
+.login .top .right {
+	overflow: hidden;
+	text-align: right;
+}
+
+.login a {
+	color: #F4EA44;
+	font-family: 'nerislight';
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.login a:hover {
+	border-bottom: 1px solid #F4EA44;
+}
+
+.login hr {
+	border: 0px;
+	border-top: 1px solid #f49090;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+	font-family: 'nerislight_italic';
+	line-height: 20px;
+	font-size: 12px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 15px;
+	display: block;
+	width: 180px;
+	margin-bottom: 10px;
+}
+
+.login input[type="submit"] {
+	font-family: 'nerislight';
+	color: #FFF;
+	background-color: #F15B5B;
+	border: none;
+	line-height: 22px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.login input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #f49090;
+}
+	
+
+.navbox {
+	padding-top: 20px;
+}
+
+.navbox .inside {
+	background-color: #4E5E73;
+	height: auto;
+	border-radius: 25px;
+	padding: 4px;
+	padding-left:7px;
+}
+
+.navbox.search .inside input[type="text"] {
+	font-family: 'nerislight_italic';
+	border: none;
+	background-color: #FFF;
+	border-radius: 15px;
+	line-height: 22px;
+	padding-left: 15px;
+	width: 205px;
+}
+
+.navbox.search .inside input[type="submit"] {
+	font-family: 'nerislight';
+	font-weight: bold;
+	color: #FFF;
+	background-color: #F15B5B;
+	border-radius: 15px;
+	border: none;
+	width: 60px;
+	line-height: 22px;
+}
+
+.navbox.search .inside input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #f49090;
+}
+
+ul.nav li {
+	list-style: none;
+	float: left;
+	margin: 24px;
+	padding-bottom: 25px;
+	background-image: url('../img/navi/pfeil_grau.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+ul.nav li.active {
+	background-image: url('../img/navi/pfeil_rot.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+ul.nav li:first-child {
+	margin-left: 0px;
+}
+
+ul.nav li:last-child {
+	margin-right: 0px;
+}
+
+ul.nav li a {
+	width: 55px;
+	height: 55px;
+	display: block;
+	text-decoration: none;
+}
+
+ul.nav li a span {
+	opacity: 0;
+	font-family: 'nerissemibold';
+	color: #FFF;
+	display: block;
+	text-align: center;
+	width: 55px;
+	border-radius: 55px;
+	font-size: 11px;
+	line-height: 55px;
+}
+
+ul.nav li.c a span {
+	font-size: 10px;
+}
+
+ul.nav li a:hover span,
+ul.nav li.active a span {
+	opacity: 10;
+	background: rgb(241, 89, 91);
+	background: rgba(241, 89, 91, 0.9);
+}
+
+ul.nav li.a a {
+	background-image: url('../img/navi/referate.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.b a {
+	background-image: url('../img/navi/video.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.c a {
+	background-image: url('../img/navi/evaluation.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.d a {
+	background-image: url('../img/navi/fotos.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.e a {
+	background-image: url('../img/navi/oeffnungszeiten.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.f a {
+	background-image: url('../img/navi/kontakt.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.g a {
+	background-image: url('../img/navi/login.png');
+	background-size: 55px 55px;
+}
+
+ul.nav li.h a {
+	background-image: url('../img/navi/suche.png');
+	background-size: 55px 55px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	width: 110px; 
+}
+
+aside hr {
+	border: 0px;
+	border-top: 2px solid #F1595B;
+}
+
+aside hr:last-child {
+	margin-bottom: 30px;
+}
+
+article {
+	width: 800px;
+	float: right;
+}
+
+article p.start {
+	font-family: 'nerislight_italic';
+	color: #9E9FA3;
+	width: 570px;
+	line-height: 25px;
+}
+
+article h1.welcome {
+	color: #F1595B;
+	font-family: 'neristhin';
+	font-size: 110px;
+	margin: 0px;
+}
+
+article h2.under {
+	color: #5E5E63;
+	font-family: 'nerissemibold';
+	margin: 0px;
+	margin-top: -5px;
+}
+
+main {
+	width: 1000px;
+	margin: auto; 
+}
+
+aside .right {
+    overflow: hidden;
+}
+
+aside .left {
+    float: left;
+    width: 250px;
+	padding-left: 40px;
+}
+
+aside h2 {
+	margin-top: 0px;
+	color: #F1595B;
+	margin-left: 40px;
+	font-family: 'nerissemibold';
+}
+
+aside .left span.info {
+	color: #5A5C63;
+	font-family: 'nerissemibold';
+	font-size: 17px;
+}
+
+aside .right p {
+	margin: 0px;
+	color: #DFCBBF;
+	font-family: 'nerislight_italic';
+	font-size: 17px;
+}
+
+footer {
+	background-color: #5E5E63;
+	display: block;
+	color: #FFF;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	font-family: 'neristhin';
+}
+
+footer #inner {
+	background-color: #5E5E63;
+	display: block;
+	color: #FFF;
+	width: 1000px;
+	margin: auto;
+}
+
+footer .left {
+    float: left;
+    width: 250px;
+	text-align: left;
+}
+
+footer .left,
+footer .right {
+	line-height: 45px;
+}
+
+footer .right {
+    overflow: hidden;
+	text-align: right;
+}
+
+footer .right a {
+    color: #FFF;
+	text-decoration: none;
+}
+
+footer .right a:hover {
+	text-decoration: underline;
+}
